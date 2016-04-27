@@ -1,0 +1,47 @@
+graph TD;
+1[entropy: 3]
+2[entropy: 0.77]
+3[entropy: 1.31]
+4[entropy: 0.5]
+5[entropy: 0]
+6[entropy: 0.25]
+7[entropy: 0]
+8[entropy: 0]
+9[entropy: 0]
+10[entropy: 0]
+12[entropy: 0.5]
+13[entropy: 0.5]
+15[entropy: 0]
+
+16[Karl Marx]
+18[Dumbledore]
+20[Ryan Gosling]
+24[Woody Allen]
+25[Beyoncé]
+26[San Goku]
+27[Lara Croft]
+31[Daenerys Targaryen]
+
+1-->|beard|2
+1-->|no beard|3
+
+2-->|brown|4
+2-->|blond|5
+3-->|brown|6
+3-->|blond|7
+
+4-->|real|8
+4-->|unreal|9
+5-->|real|10
+6-->|real|12
+6-->|unreal|13
+7-->|unreal|15
+
+8-->|male|16
+9-->|male|18
+10-->|male|20
+12-->|male|24
+12-->|female|25
+13-->|male|26
+13-->|female|27
+15-->|female|31
