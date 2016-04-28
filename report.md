@@ -97,7 +97,7 @@ entropy gain: $1$
 
 ## Complete tree
 
-![](graph.png)
+![the complete tree](graph.png)
 
 Q: Are there more than one optimal solution ? Explain why...  
 A: No, there is only one optimal solution because for each different variables we tried to split on, only one had the best entropy gain possible (i.e. 1).
